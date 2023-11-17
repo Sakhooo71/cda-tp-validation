@@ -29,6 +29,7 @@ function App() {
                 onClose={() => setShowToast(false)}
                 message={`Hello ${formData.name} parlons de ${formData.subject}`}
             />
+            <config />
         </main>
     )
 }
